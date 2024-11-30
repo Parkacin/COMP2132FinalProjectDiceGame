@@ -1,0 +1,176 @@
+/********* HTML Elements **********/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(12, 95, 37);
+    color: white;
+    font-family:Limelight;
+}
+
+button {
+    margin: 50px 5px 5px 5px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    color: white;
+    font-size:200%;
+    font-weight: bold;
+    font-family:Limelight;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 0px 0px 0px 0px;
+}
+
+h3 {
+    margin: 5px 0px 0px 0px;
+    width: 100px
+}
+
+p{
+    margin: 0px 0px 0px 0px;
+}
+
+/********* Classes **********/
+
+.dice {
+    margin: 5px;
+}
+
+.diceArea {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    filter: drop-shadow(10px 10px 2px #000000);
+}
+
+.roll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px 0px 0px;
+    font-size: 130%;
+}
+
+.rollC {
+    filter: drop-shadow(2px 2px #ff0000);
+}
+
+.rollP {
+    filter: drop-shadow(3px 3px #000000);
+}
+
+.rollValue {
+    font-size: 500%;  
+}
+
+.win {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: blue;
+}
+
+.lose {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(158, 2, 2);
+}
+
+.tie {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(18, 212, 106);
+}
+/********* IDs **********/
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#computerArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#computerRollValue {
+    filter: drop-shadow(2px 2px #ff0000);
+}
+
+#computerTitle {
+    filter: drop-shadow(2px 2px #ff0000);
+}
+
+#gameTitle {
+    font-size: 500%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    filter: drop-shadow(10px 10px 2px #000000);
+    border-bottom: 2px solid #ffffff;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#playArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#playerArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#playerRollValue {
+    filter: drop-shadow(3px 3px #000000);
+}
+
+#playerTitle {
+    filter: drop-shadow(3px 3px #000000);
+}
+
+#result {
+    position: absolute;
+    margin: 600px 5px 5px 5px;
+    width: 250px;
+    color: white;
+    font-size: 300%;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/********* Sizing **********/
+@media screen and (max-width:1000px){
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #playArea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #result {
+        margin: 1050px 5px 5px 5px;
+    }
+}
+/********* End of File **********/

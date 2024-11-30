@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Final Project - Parker Lukacin</title>
+            <script src="JS/myScript.js" defer></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <link rel="stylesheet" href="CSS/global.css">
+            <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <h1 id="gameTitle">Dice Game</h1>
+            <div id="main">
+                <h1 id="result"></h1>
+                <div id="playArea">
+                    <div id="playerArea">
+                        <h2 id="playerTitle">Player</h2>
+                        <div id="playerDice" class="diceArea">
+                            <img id="playerDice1" src="Images/Player/Dice-1.png" class="dice" width="150" height="150">
+                            <img id="playerDice2" src="Images/Player/Dice-1.png" class="dice" width="150" height="150">
+                        </div>
+                        <p id="playerRollValue" class="rollValue">-</p>
+                        <div id="playerRolls" class="rollP">
+                            <div id="playerRoll1" class="roll">
+                                <h3>Roll 1:&nbsp</h3>
+                                <h3 id="playerRollValue1">-</h3>
+                            </div>
+                            <div id="playerRoll2" class="roll">
+                                <h3>Roll 2:&nbsp</h3>
+                                <h3 id="playerRollValue2">-</h3>
+                            </div>
+                            <div id="playerTotal" class="roll">
+                                <h3>Total:&nbsp</h3>
+                                <h3 id="playerRollTotal">-</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="computerArea">
+                        <h2 id="computerTitle">Computer</h2>
+                        <div id="computerDice" class="diceArea">
+                            <img id="computerDice1" src="Images/Computer/Dice-1.png" class="dice" width="150" height="150">
+                            <img id="computerDice2" src="Images/Computer/Dice-1.png" class="dice" width="150" height="150">
+                        </div>
+                        <p id="computerRollValue" class="rollValue" class="rollC">-</p>
+                        <div id="computerRolls" class="rollC">
+                            <div id="computerRoll1" class="roll">
+                                <h3>Roll 1:&nbsp</h3>
+                                <h3 id="computerRollValue1">-</h3>
+                            </div>
+                            <div id="computerRoll2" class="roll">
+                                <h3>Roll 2:&nbsp</h3>
+                                <h3 id="computerRollValue2">-</h3>
+                            </div>
+                            <div id="computerTotal" class="roll">
+                                <h3>Total:&nbsp</h3>
+                                <h3 id="computerRollTotal">-</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <button id="playButton">Roll</button>
+                </div>                
+            </div>
+        </body>
+    </html>
+<!--End of File-->
